@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(51, 51, 51);
+}
+
+nav{
+    color: white;
+    // background-color: black;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.chat{
+    height: 84vh;
+    padding: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-image: url("https://imgs.search.brave.com/edF_Z5dlyergpeUh8S_zHf3k6Y1Qz3wXxyc76Zmlzt4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/d2FsbHBhcGVyc2Fm/YXJpLmNvbS80LzEx/L1dvZnlWSi5wbmc");
+
+    &__message{
+        background-color: rgb(56, 155, 56);
+        margin: 5px 0;
+        padding: 10px;
+        color: white;
+        border-radius: 5px;
+        width: fit-content;
+    }
+}
+
+.input{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    background-color: rgb(51, 51, 51);
+    &__content{
+        width: 40vw;
+        padding: 5px;
+        border-radius: 25px;
+        border: 1px solid gray;
+        height: 25px;
+    }
+    &__button{
+        background-color: rgb(56, 155, 56);
+        color: white;
+        height: 35px;
+        width: 35px;
+        border: none;
+        border-radius: 50%;
+        margin-left: 15px;
+    }
+}
+
